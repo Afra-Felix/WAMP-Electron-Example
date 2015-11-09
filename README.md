@@ -22,7 +22,7 @@ $cd WAMP-Electron-Example/PythonBackend
 $python backend.py
 ```
 #Demo
-There are folders namely AutobahnExample and WampyExample. 
-Each folder contains an application prepared for Electron. 
-In order to run the App, drag the app folder and drop it in Electron IDE
+There are two folders namely AutobahnExample and WampyExample. 
+Each folder has a subfolder named 'app' which contains an application prepared for Electron. 
+In order to run the application, drag the app folder and drop it in Electron IDE
 
