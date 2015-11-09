@@ -16,9 +16,11 @@ Extract the zip file and run the electron application.
 a WAMP router (crossbar / bonefish) should run at port 8080 using the realm 'crossbardemo'
 
 #Backend
-cd WAMP-Electron-Example/PythonBackend
-python backend.py
-
+Run the python backend code, which submits an event periodically
+```
+$cd WAMP-Electron-Example/PythonBackend
+$python backend.py
+```
 #Demo
 There are folders namely AutobahnExample and WampyExample. 
 Each folder contains an application prepared for Electron. 
