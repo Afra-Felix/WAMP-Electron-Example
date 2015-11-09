@@ -8,16 +8,19 @@ Using Electron its possible to run an HTML5 Javascript application natively.
 The below example is an attempt to run Javascript WAMP clients using Electron.
 
 Download electron from http://electron.atom.io/.
-Prebuild binaries available here https://github.com/atom/electron/releases
+Prebuild binaries available are here https://github.com/atom/electron/releases
 
+Extract the zip file and run the electron application.
 
+# WAMP Router
+a WAMP router (crossbar / bonefish) should run at port 8080 using the realm 'crossbardemo'
 
-Set of Examples  WAMP Clients using Electron Framework
+#Backend
+cd WAMP-Electron-Example/PythonBackend
+python backend.py
 
-AutobahnJS
+#Demo
+There are folders namely AutobahnExample and WampyExample. 
+Each folder contains an application prepared for Electron. 
+In order to run the App, drag the app folder and drop it in Electron IDE
 
-
-Wampy
-
-
-Demo
